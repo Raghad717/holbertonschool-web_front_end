@@ -1,0 +1,6 @@
+/* 1-style.css */
+
+/* Smooth scrolling for the whole page */
+html {
+    scroll-behavior: smooth;
+}
