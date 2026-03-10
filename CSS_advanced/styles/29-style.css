@@ -1,11 +1,9 @@
-/* 29. Styling and custom properties for the nav */
-
-/* Update variable */
+/* Nav hover variable */
 :root {
   --nav-item-link-hover: var(--color-white);
 }
 
-/* before pseudo-element of nav-link inside nav */
+/* nav-link before element */
 .nav .nav-link::before {
   content: "";
   position: absolute;
@@ -13,10 +11,10 @@
   left: 0;
   background-color: var(--color-white);
   width: 0;
-  height: 20%;
+  height: 0.2rem;
 }
 
-/* when nav-item is hovered */
+/* hover effect */
 .nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
